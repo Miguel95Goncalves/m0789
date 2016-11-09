@@ -67,7 +67,7 @@ public class Exercicios {
 		//Exercício 3 Nível 3
 		// Utilize uma matriz 3 por 3
 		// Peça ao utilizador para preencher a matriz
-		// No final apresente a soma de todos os valores e apresente graficamente a matriz
+		// No final apresente a soma de todos os valores e apresente graficamente a matriz, apenas com um ciclo for
 		
 		int[][] matriz = new int[3][3];
 		int soma=0, num;
