@@ -84,7 +84,7 @@ public class Exercicios {
 		System.out.println("\nSoma = " + soma + "\n");
 		
 		for (int i=0;i<=2;i++) {
-			System.out.println(matriz[i][i-i] + " " + matriz[i][i+1-i] + " " + matriz[i][i+2-i] + "\n");
+			System.out.println(matriz[i][i-i] + " " + matriz[i][i+1-i] + " " + matriz[i][i+2-i]);
 		}
 		
 	}
