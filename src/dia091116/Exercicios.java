@@ -41,27 +41,27 @@ public class Exercicios {
 	}
 	
 	public void exercicio2() {
-			// Exercício 2 Nível 1
-			// Peça ao utilizador um número de cada vez e vá somando esses números até o utilizador introduzir o número 0
-			// Verifique se é par ou impar
-			// Utilize o ciclo Do While
+		// Exercício 2 Nível 1
+		// Peça ao utilizador um número de cada vez e vá somando esses números até o utilizador introduzir o número 0
+		// Verifique se é par ou impar
+		// Utilize o ciclo Do While
+	
+		int num, soma=0;
 		
-			int num, soma=0;
+		do {
+			System.out.println("Introduza um número:");
+			num = (new Scanner(System.in)).nextInt();
 			
-			do {
-				System.out.println("Introduza um número:");
-				num = (new Scanner(System.in)).nextInt();
-				
-				soma += num;
-				System.out.println("Soma = " + soma + "\n");
-			} while (num!=0);
-			
-			if (soma%2==0) {
-				System.out.println("Par");
-			} else {
-				System.out.println("Impar");
-			}
+			soma += num;
+			System.out.println("Soma = " + soma + "\n");
+		} while (num!=0);
+		
+		if (soma%2==0) {
+			System.out.println("Par");
+		} else {
+			System.out.println("Impar");
 		}
+	}
 
 	public void exercicio3() {
 		//Exercício 3 Nível 3
@@ -83,8 +83,10 @@ public class Exercicios {
 		
 		System.out.println("\nSoma = " + soma + "\n");
 		
+		System.out.println("-" + " " + "-" + " " + "-");
 		for (int i=0;i<=2;i++) {
-			System.out.println(matriz[i][i-i] + " " + matriz[i][i+1-i] + " " + matriz[i][i+2-i]);
+			System.out.println(matriz[i][i-i] + "|" + matriz[i][i+1-i] + "|" + matriz[i][i+2-i]);
+			System.out.println("-" + " " + "-" + " " + "-");
 		}
 		
 	}
