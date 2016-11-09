@@ -82,16 +82,10 @@ public class Exercicios {
 		}
 		
 		System.out.println("\nSoma = " + soma + "\n");
-		//for (int i=0;i<=2;i++) {
-			//for (int o=0;o<=2;o++) {
-				System.out.println(matriz[0][0] + " " + matriz[0][1] + " " + matriz[0][2]);
-				
-				System.out.println(matriz[1][0] + " " + matriz[1][1]  + " " + matriz[1][2]);
-				
-				System.out.println(matriz[2][0] + " " +  matriz[2][1] + " " + matriz[2][2]);
-			//}
-			//System.out.println("\n");
-		//}
+		
+		for (int i=0;i<=2;i++) {
+			System.out.println(matriz[i][i-i] + " " + matriz[i][i+1-i] + " " + matriz[i][i+2-i] + "\n");
+		}
 		
 	}
 
