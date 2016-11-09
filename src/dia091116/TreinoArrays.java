@@ -14,7 +14,7 @@ public class TreinoArrays {
 		golos[1] = 1;
 		//System.out.println(golos[0]);
 		
-		// Instanciacao com inicializacao de variaveis
+		// Instanciacao com inicializacao de variaveiss
 		int[] portobenfica = {1, 1};
 		int[] sportingarouca = {3, 0};
 		int[] maritimobraga = {1, 0};
