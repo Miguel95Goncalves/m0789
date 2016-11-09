@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicios {
 
 	public Exercicios() {
-		exercicio3();
+		exercicio1();
 		
 		
 	}
