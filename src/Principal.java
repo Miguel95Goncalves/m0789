@@ -1,6 +1,7 @@
 //import dia091116.TreinoArrays;
 //import dia091116.Exercicios;
-import TPC161116.CalculadoraDeGastos;
+//import TPC161116.CalculadoraDeGastos;
+import TPC161116.MediaDeGolos;
 
 public class Principal {
 
@@ -12,7 +13,8 @@ public class Principal {
 		// TODO Auto-generated method stub
 		//new TreinoArrays();
 		//new Exercicios();
-		new CalculadoraDeGastos();
+		//new CalculadoraDeGastos();
+		new MediaDeGolos();
 	}
 
 }
