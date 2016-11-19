@@ -1,5 +1,6 @@
 //import dia091116.TreinoArrays;
-import dia091116.Exercicios;
+//import dia091116.Exercicios;
+import TPC161116.CalculadoraDeGastos;
 
 public class Principal {
 
@@ -10,7 +11,8 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//new TreinoArrays();
-		new Exercicios();
+		//new Exercicios();
+		new CalculadoraDeGastos();
 	}
 
 }
