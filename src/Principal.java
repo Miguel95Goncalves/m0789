@@ -1,7 +1,8 @@
 //import dia091116.TreinoArrays;
 //import dia091116.Exercicios;
 //import TPC161116.CalculadoraDeGastos;
-import TPC161116.MediaDeGolos;
+//import TPC161116.MediaDeGolos;
+import Compras.Main;
 
 public class Principal {
 
@@ -14,7 +15,8 @@ public class Principal {
 		//new TreinoArrays();
 		//new Exercicios();
 		//new CalculadoraDeGastos();
-		new MediaDeGolos();
+		//new MediaDeGolos();
+		new Main();
 	}
 
 }
