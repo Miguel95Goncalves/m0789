@@ -2,7 +2,8 @@
 //import dia091116.Exercicios;
 //import TPC161116.CalculadoraDeGastos;
 //import TPC161116.MediaDeGolos;
-import Compras.Main;
+//import Compras.Main;
+import AgeOfEmpiresII.Character;
 
 public class Principal {
 
@@ -16,7 +17,8 @@ public class Principal {
 		//new Exercicios();
 		//new CalculadoraDeGastos();
 		//new MediaDeGolos();
-		new Main();
+		//new Main();
+		new Character();
 	}
 
 }
