@@ -7,6 +7,7 @@ public class CalculadoraDeGastos {
 	}
 	
 	public void calcular() {
+		float esquerda;
 		int agua,luz,gas,telecomunicacoes;
 		float media=0;
 		
