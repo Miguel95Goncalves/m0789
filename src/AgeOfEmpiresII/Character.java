@@ -8,11 +8,11 @@ public class Character {
 	
 	public Integer health;
 	
-	public Character(Integer ataque, Integer defesa, Integer health) {
+	/*public Character(Integer ataque, Integer defesa, Integer health) {
 		this.ataque = ataque;
 		this.defesa = defesa;
 		this.health = health;
-	}
+	}*/
 
 	public Integer getAtaque() {
 		return ataque;
